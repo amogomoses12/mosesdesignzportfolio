@@ -5,7 +5,8 @@ body{
 
 
 #title {
-    background-color: #0f5298;
+    /* background-color: #0f5298; */
+    background-color: black;
     color: #fff;
 }
 .portfolio-image {
@@ -25,15 +26,14 @@ strong {
 
 h1 {
     font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1;
+    /* font-weight: bold; */
 }
 
 h3 {
     font-family: 'Montserrat-Bold', sans-serif;
-    font-weight: bold;
-    
+    /* font-weight: bold; */
 } 
 
 h2 {
@@ -75,13 +75,33 @@ p {
 
 /* Title Image */
 .title-image {
-    width: 60%;
+    width: 40%;
     transform: rotate(25deg);
+    margin-left: 100px;
+}
+
+.title-image{
+    /* color: #ff7200; */
+    animation: animateText 2s infinite;
+}
+
+@keyframes animateText {
+    from {
+        transform: scale(2);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.col-lg-6 {
+    
 }
 
 .title-logo {
     width: 20%;
     transform: rotate(0deg);
+    
 }
 
 /* Features Section */
@@ -95,7 +115,8 @@ p {
 }
 
 .icon {
-    color: #0f5298;
+    /* color: #0f5298; */
+    color: #ff7200;
     margin-bottom: 1rem;
 }
 
@@ -108,7 +129,8 @@ p {
 #testimonials {
     padding: 7% 15%;
     text-align: center;
-    background-color: #0f5298;
+    /* background-color: #0f5298; */
+    background-color: black;
     color: #fff;
 }
 
@@ -123,7 +145,8 @@ p {
 }
 
 #press {
-    background-color:#0f5298;
+    /* background-color:#0f5298; */
+    background-color: black;
     text-align: center;
     padding-bottom: 3%;
 
@@ -139,6 +162,11 @@ p {
  #pricing {
     text-align: center;
     margin-top: 100px;
+}
+
+#price-row {
+    border: 1px solid rgba(179, 175, 175, 0.301);
+    border-radius: 20px;
 }
 
 .Price-box {
@@ -185,10 +213,50 @@ span {
 }
 
 #footer {
-    background-color: #2f73bb;
+    /* background-color: #2f73bb; */
+    background-color: black;
     color: #fff;
     text-align: center;
     padding-top: 50px;
-    height: 100px;
+    height: 100%;
     margin-top: 100px;
+}
+
+a {
+    text-decoration-line: none;    
+}
+
+.icon-icon {
+    padding-bottom: 50px;
+}
+
+.icon-icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon-icon ion-icon {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon-icon ion-icon:hover {
+    color: #ff7200;
+}
+
+h1, #animated-text {
+    /* color: #ff7200; */
+    animation: animateText 2s infinite;
+}
+
+@keyframes animateText {
+    from {
+        transform: scale(2);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }
