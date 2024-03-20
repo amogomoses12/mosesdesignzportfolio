@@ -1,262 +1,264 @@
-
-body{
-    font-family: 'Montserrat-Bold', sans-serif;
+body {
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
 
 #title {
-    /* background-color: #0f5298; */
-    background-color: black;
-    color: #fff;
+  /* background-color: #0f5298; */
+  background-color: black;
+  color: #fff;
 }
+
 .portfolio-image {
-    width: 50%;
-    /* height: 50%; */
-    border-radius: 50%;
-    /* margin: 20px; */
+  width: 50%;
+  /* height: 50%; */
+  border-radius: 50%;
+  /* margin: 20px; */
 }
 
 strong {
-    color: #fff;
+  color: #fff;
 }
 
 .container-fluid {
-    padding: 2% 15%;
+  padding: 2% 15%;
 }
 
 h1 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 2.5rem;
-    line-height: 1;
-    /* font-weight: bold; */
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  /* font-weight: bold; */
 }
 
 h3 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    /* font-weight: bold; */
-} 
+  font-family: 'Montserrat-Bold', sans-serif;
+  /* font-weight: bold; */
+}
 
 h2 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-weight: bold;
-    font-size: 3.5rem;
-    line-height: 1.5;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 p {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
+
 /* Navigation Bar */
 
 .navbar {
-    padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-    font-family: Ubuntu;
-    font-size: 2.5rem;
-    /* font-weight: bold; */
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  /* font-weight: bold; */
 }
 
 .navbar-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 1.5rem;
-    font-family: 'Montserrat-Light', sans-serif;
+  font-size: 1.5rem;
+  font-family: 'Montserrat-Light', sans-serif;
 }
 
 /* Download Button */
 
 .Download-button {
-    margin: 5% 3% 5% 0;
-} 
+  margin: 5% 3% 5% 0;
+}
 
 /* Title Image */
 .title-image {
-    width: 40%;
-    transform: rotate(25deg);
-    margin-left: 100px;
+  width: 40%;
+  transform: rotate(25deg);
+  margin-left: 100px;
 }
 
-.title-image{
-    /* color: #ff7200; */
-    animation: animateText 2s infinite;
+.title-image {
+  /* color: #ff7200; */
+  animation: animateText 2s infinite;
 }
 
 @keyframes animateText {
-    from {
-        transform: scale(2);
-    }
-    to {
-        transform: scale(1.2);
-    }
+  from {
+    transform: scale(2);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
 }
 
-.col-lg-6 {
-    
-}
+.col-lg-6 {}
 
 .title-logo {
-    width: 20%;
-    transform: rotate(0deg);
-    
+  width: 20%;
+  transform: rotate(0deg);
+
 }
 
 /* Features Section */
 #features {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 .feature-box {
-    text-align: center;
-    padding: 4.5%;
+  text-align: center;
+  padding: 4.5%;
 }
 
 .icon {
-    /* color: #0f5298; */
-    color: #ff7200;
-    margin-bottom: 1rem;
+  /* color: #0f5298; */
+  color: #ff7200;
+  margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #ff4c68;
+  color: #ff4c68;
 }
 
 /* Testimonial Section*/
 
 #testimonials {
-    padding: 7% 15%;
-    text-align: center;
-    /* background-color: #0f5298; */
-    background-color: black;
-    color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+  /* background-color: #0f5298; */
+  background-color: black;
+  color: #fff;
 }
 
 .testimonial-image {
-    width: 10%;
-    border-radius: 50%;
-    margin: 20px;
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
 }
 
-.testimonial-text{
-    font-size: 20px;
+.testimonial-text {
+  font-size: 20px;
 }
 
 #press {
-    /* background-color:#0f5298; */
-    background-color: black;
-    text-align: center;
-    padding-bottom: 3%;
+  /* background-color:#0f5298; */
+  background-color: black;
+  text-align: center;
+  padding-bottom: 3%;
 
 }
 
 .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
 /* Picing items */
 
- #pricing {
-    text-align: center;
-    margin-top: 100px;
+#pricing {
+  text-align: center;
+  margin-top: 100px;
 }
 
 #price-row {
-    border: 1px solid rgba(179, 175, 175, 0.301);
-    border-radius: 20px;
+  border: 1px solid rgba(179, 175, 175, 0.301);
+  border-radius: 20px;
 }
 
 .Price-box {
-    box-sizing: border-box;
-    /* border: solid 1px; */
-    padding: 10px;
-    margin: auto;
-    /* margin: 0px 0px 2px 2px; */
+  box-sizing: border-box;
+  /* border: solid 1px; */
+  padding: 10px;
+  margin: auto;
+  /* margin: 0px 0px 2px 2px; */
 }
 
 #price-row {
-    /* box-sizing: border-box; */
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    padding-top: 10px;
-    width: 60%;
+  /* box-sizing: border-box; */
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 10px;
+  width: 60%;
 }
 
 .price-title {
-    width: 100%;
-    color: #8f8f8f;
-    background-color: black;
-    color: #fff;
+  width: 100%;
+  color: #8f8f8f;
+  background-color: black;
+  color: #fff;
 }
 
 span {
-    color: #8f8f8f;
-    font-size: smaller;
+  color: #8f8f8f;
+  font-size: smaller;
 }
 
 .sign-up-button {
-    /* background-color: #ef8172; */
-    /* border-radius: 3px; */
-    /* border: solid #8f8f8f; */
-    /* width: 8%; */
-    /* color: #fff; */
-    outline-color: #8f8f8f;
-} *
+  /* background-color: #ef8172; */
+  /* border-radius: 3px; */
+  /* border: solid #8f8f8f; */
+  /* width: 8%; */
+  /* color: #fff; */
+  outline-color: #8f8f8f;
+}
 
-#cta {
-    text-align: center;
-    margin: 50px 50px 0px 0px;
+* #cta {
+  text-align: center;
+  margin: 50px 50px 0px 0px;
 }
 
 #footer {
-    /* background-color: #2f73bb; */
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding-top: 50px;
-    height: 100%;
-    margin-top: 100px;
+  /* background-color: #2f73bb; */
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  height: 100%;
+  margin-top: 100px;
 }
 
 a {
-    text-decoration-line: none;    
+  text-decoration-line: none;
 }
 
 .icon-icon {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .icon-icon a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .icon-icon ion-icon {
-    color: #fff;
-    font-size: 20px;
-    padding-left: 14px;
-    padding-top: 5px;
-    transition: 0.3s ease;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
 }
 
 .icon-icon ion-icon:hover {
-    color: #ff7200;
+  color: #ff7200;
 }
 
-h1, #animated-text {
-    /* color: #ff7200; */
-    animation: animateText 2s infinite;
+h1,
+#animated-text {
+  /* color: #ff7200; */
+  animation: animateText 2s infinite;
 }
 
 @keyframes animateText {
-    from {
-        transform: scale(2);
-    }
-    to {
-        transform: scale(1.2);
-    }
+  from {
+    transform: scale(2);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
 }
